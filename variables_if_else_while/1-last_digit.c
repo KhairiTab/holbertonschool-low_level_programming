@@ -6,7 +6,7 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	int n, l;
+	int n, r;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -17,7 +17,7 @@ int main(void)
 	}
 	else if (r == 0)
 	{
-		printf("Last digit of %d is %d and is 0\n", n, );
+		printf("Last digit of %d is %d and is 0\n", n, r);
 	}
 	else
 	{
