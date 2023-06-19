@@ -11,7 +11,7 @@ for (i = 0; i < 10; i++)
 {
 d = (i % 2);
 if (d == 0)
-putchar(i);
+putchar('0' + i);
 }
 putchar('\n');
 return (0);
