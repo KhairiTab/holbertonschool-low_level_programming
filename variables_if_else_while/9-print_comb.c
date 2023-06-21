@@ -8,7 +8,7 @@ putchar(i);
 putchar(44);
 putchar(32);
 }
-putchar(58);
+putchar(57);
 
 return (0);
 }
