@@ -8,6 +8,7 @@ putchar(i);
 putchar(44);
 putchar(32);
 }
-putchar(57);
+putchar('\n');
+
 return (0);
 }
