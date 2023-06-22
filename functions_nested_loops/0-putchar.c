@@ -5,6 +5,9 @@ int main(void)
 	int i;
 
 	for (i = 0; x[i] != '\0'; i++)
+	{
 		_putchar(x[i]);
+	}
+	_putchar('\n');
 	return (0);
 }
