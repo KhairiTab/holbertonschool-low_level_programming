@@ -10,6 +10,7 @@ void times_table(void)
 			m = i * j;
 			_putchar(44);
 			_putchar(32);
+			_putchar('\n');
 			if (m <= 9)
 			{
 				_putchar(32);
