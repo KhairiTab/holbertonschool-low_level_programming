@@ -1,16 +1,15 @@
 #include <stdio.h>
 int main()
 {
-	int i,s3,s5,s;
-	i=1;
-	do
+	int i,j;
+	j=0;
+	for (i = 0 ;i < 1024 ;i++);
 	{
-		s3=(3*i);
-                s5=(5*i);
-		printf("%d,%d",s3,s5);
-		s=s3+s5;
+		if(i % 3 = 0 || i % 5 = 0)
+		{
+			j += i;
+		}
+		printf("%d",j);
 	}
-i==i++;
-	while(s<=1024);
 	return (0);
 }
