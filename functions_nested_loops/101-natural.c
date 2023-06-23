@@ -9,7 +9,7 @@ int main(void)
                 s5=(5*i);
 		printf("%d,%d",s3,s5);
 		s=s3+s5;
-		i=i++;
 	}
+	i=i++;
 	while(s<=1024);
 }
