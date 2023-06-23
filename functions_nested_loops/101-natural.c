@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(void)
+int main()
 {
 	int i,s3,s5,s;
 	i=1;
@@ -10,6 +10,7 @@ int main(void)
 		printf("%d,%d",s3,s5);
 		s=s3+s5;
 	}
-	i=i++;
+i==i++;
 	while(s<=1024);
+	return (0);
 }
