@@ -9,7 +9,10 @@
 int main(int argc, char **argv)
 {
 	if (argc != 3)
-	printf("Error \n");
+	{
+	printf("Error");
+	printf("\n");
+	}
 	else
 	{
 	printf("%d", atoi(argv[1]) * atoi(argv[2]));
