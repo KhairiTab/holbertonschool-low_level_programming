@@ -1,6 +1,7 @@
-#include <stido.h>
-int main(int argc, char **argv)
-
-	printf("%c",*argv);
+#include <stdio.h>
+int main(int __attribute__ ((unused)) argc, char **argv)
+{
+	printf("%s",*argv);
 	printf("\n");
 	return (0);
+}
