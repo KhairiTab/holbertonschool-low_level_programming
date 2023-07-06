@@ -3,6 +3,9 @@
 /**
  * _atoi - converts a string to an integer
  * @s: string to be converted
+ * main - multiplies two numbers
+ * @argc: number of arguments
+ * @argv: array of argument
  *
  * Return: the int converted from the string
  */
