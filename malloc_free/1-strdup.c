@@ -8,7 +8,7 @@
  */
 char *_strdup(char *str)
 {
-	char *ptr;
+	char *strout;
 	unsigned int i, j;
 
 	if (str == NULL)
@@ -18,11 +18,11 @@ char *_strdup(char *str)
 
 	ptr = (char *)malloc(sizeof(char) * (i + 1));
 
-	if (ptr == NULL)
+	if (strout == NULL)
 		return (NULL);
 
 	for (j = 0; j <= i; j++)
-		ptr[j] = str[j];
+		strout[j] = str[j];
 
-	return (ptr);
+	return (strout);
 }
