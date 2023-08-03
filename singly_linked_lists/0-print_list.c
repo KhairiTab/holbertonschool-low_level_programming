@@ -2,7 +2,7 @@
 #include "lists.h"
 
 size_t print_list(const list_t *h){
-list_t count =0;
+list_t count = 0;
 printf("[");
 while (h != NULL){
 if (h ->str != NULL){
