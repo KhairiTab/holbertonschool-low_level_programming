@@ -23,5 +23,5 @@ return NULL;
 new_node->len = strlen(str);
 new_node->next = *head;
 *head = new_node;
+return (*head);
 }
-return new_node;
